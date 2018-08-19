@@ -1,0 +1,29 @@
+spring:
+  profiles.active: dev
+---
+# Development Profile
+spring:
+  profiles: dev
+datasource:
+  access_key_id: 
+  secret_access_key: 
+  bucket_name: 
+  client_region: ap-southeast-1
+  proxy:
+    enabled: false
+    url: 
+    port: 8080
+
+---
+# Production Profile
+spring:
+  profiles: prod
+datasource:
+  access_key_id: 
+  secret_access_key: 
+  bucket_name: 
+  client_region: ap-southeast-1
+  proxy:
+    enabled: false
+    url: 
+    port: 8080
